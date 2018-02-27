@@ -32,6 +32,7 @@ nav {
 
   background-color : black;
 }
+<<<<<<< HEAD
 .services-wrap {
   background-color : #e7e7e7;
   height : 500px;
@@ -45,3 +46,34 @@ div.col-sm-4 {
   padding-right: 50px;
   padding-left: 50px; 
 }
+=======
+.about{
+  border:1px solid red;
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  margin-top: 500px;
+}
+.slideshow-about{
+  height: 400px;
+  width: 50%;
+  background-color: #808080;
+  margin-top: 100px;
+  float:left;
+}
+.aboutright{
+  height: 400px;
+  width: 50%;
+  float: right;
+  margin-top: 100px; 
+}
+.img{
+  height: 400px;
+  width: 100%;
+}
+p{
+  color:white;
+  font-family: arial;
+  font-size: 30px;
+}
+>>>>>>> aa33caf2d1303db9476e1d77982d8f8f694ff5ab
