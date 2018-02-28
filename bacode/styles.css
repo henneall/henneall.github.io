@@ -230,3 +230,25 @@ div.content_contact  p{
   width: 420px;
 }
 /*end contact section*/
+  height : 378px;
+  background-color : black;
+}
+.about{
+  height: 500px;
+  width: 100%;
+  background-color: black;
+  margin-top: 1500px;
+}
+.slideshow-about{
+  height: 500px;
+  width: 50%;
+  background-color: #808080;
+  margin-top: 1500px;
+}
+.aboutright{
+  height: 500px;
+  width: 50%;
+  background-color: pink;
+  float: right;
+  margin-top: -500px; 
+}
