@@ -7,26 +7,24 @@ nav {
 }
 .main-menu-holder {
   margin-right : 194px;
+  margin-top : -76px;
 
 }
 .main-menu li {
-  float : right;
   font-size : 20px;
+  float : right;
   list-style : none;
   padding : 20px;
-  margin-top : 18px;
 }
 .main-menu li a {
   color : white;
   text-decoration : none;
 }
 .logo img {
-  float : left;
-  width : 84px;
-  height : 84px;
-  margin-top : 10px;
+  width : 50px;
+  height : 50px;
   margin-left : 194px;
-  
+  margin-top : 23px;
 }
 .banner {
   width : 100%;
@@ -34,101 +32,125 @@ nav {
 
   background-color : black;
 }
-
 .services-wrap {
   background-color : #e7e7e7;
   height : 500px;
 }
-div.col-sm-4{
+div.col-sm-4 {
   float : left;
-  margin-top : 169px;
-  border-radius : 30px;
-}
-.col-sm-4.first {
-  margin-left : 191px;
-}
-.col-sm-4.second {
-  margin-left : 160px;
-}
-.col-sm-4.third {
-  margin-left : 160px;
-}
-.col-sm-4.fourth {
-  margin-left : 160px;
-}
-.col-sm-4.first img {
+  margin-top : 250px;
+  /*padding-left : 180px;*/
   background-color : #efefef;
-
-}
-.col-sm-4.second img {
-  background-color : #efefef;
-}
-.col-sm-4.third img {
-  background-color : #efefef;
-}
-.col-sm-4.fourth img {
-  background-color : #efefef;
+  border-radius : 30px; 
+  padding-right: 50px;
+  padding-left: 50px; 
 }
 .about{
-  border:1px solid red;
-  height: 500px;
-  width: 100%;
-  background-color: white;
-  margin-top: 500px;
+  border :1px solid red;
+  height : 500px;
+  width : 100%;
+  margin-top : 500px;
 }
-.slideshow-about{
-  height: 400px;
-  width: 50%;
-  background-color: #808080;
-  margin-top: 100px;
-  float:left;
-}
+
 .aboutright{
-  height: 400px;
-  width: 50%;
-  float: right;
-  margin-top: 100px; 
+  height : 400px;
+  width : 50%;
+  float : right;
+  margin-top : 9px; 
 }
 .img{
-  height: 400px;
-  width: 100%;
+  height : 400px;
+  width : 100%;
 }
 p{
-  color:white;
-  font-family: arial;
-  font-size: 30px;
+  color : white;
+  font-family : arial;
+  font-size : 30px;
 }
-<!--contact-->
-.main {
-  height: 400px;
-  width: 100%;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+h1{
+  font-family :  'Alegreya Sans';
+  font-size : 36px;
+  color : black;
+  text-align : center;
 }
-.left-align {
-  width: 80%;
-    right: 50px;
-  background-color: #808080;
-    margin-left: 150px;
+.mission-text{
+  font-family :  'Alegreya Sans';
+  font-size : 34px;
+  color : white;
+  text-align : center;
 }
-.right-align {
-  background-color: #000000;
-  width: 80%;
-}
-.contactform {
-  text-align: right;
+* {box-sizing:border-box}
 
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  height : 400px;
+  width : 50%;
+  margin-top : 9px;
+  background-color: #808080;
+  float : left;
 }
-.content, .contact_form {
-  padding: 120px;
+.mySlides {display: none}
+  {background-color: #ffffff;} 
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
 }
-.first_name, .last_name, .email_add {
-  padding-bottom: 20px;
-  padding-right: 180px
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
-.message {
-  padding-bottom: 100px;
-  padding-right: 180px
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
 }
-<!--end contact-->
+
+/* Caption text */
+.text{
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
