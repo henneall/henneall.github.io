@@ -1,4 +1,5 @@
 /*navbar,banner,services section*/
+
 nav {
   height : 100px;
   width : 100%;
@@ -7,24 +8,26 @@ nav {
 }
 .main-menu-holder {
   margin-right : 194px;
-  margin-top : -76px;
 
 }
 .main-menu li {
-  font-size : 20px;
   float : right;
+  font-size : 20px;
   list-style : none;
   padding : 20px;
+  margin-top : 18px;
 }
 .main-menu li a {
   color : white;
   text-decoration : none;
 }
 .logo img {
-  width : 50px;
-  height : 50px;
+  float : left;
+  width : 84px;
+  height : 84px;
+  margin-top : 10px;
   margin-left : 194px;
-  margin-top : 23px;
+  
 }
 .banner {
   width: 100%;
@@ -33,18 +36,13 @@ background-image : url('images/bacodeBg.png');
 background-repeat : no-repeat;
 background-size : contain;
 }
+
 .services-wrap {
   height : 652px;
   background : #fff;
 }
-div.col-sm-4 {
+div.col-sm-4{
   float : left;
-  margin-top : 250px;
-  /*padding-left : 180px;*/
-  background-color : #efefef;
-  border-radius : 30px; 
-  padding-right: 50px;
-  padding-left: 50px; 
   margin-top : 169px;
   background : #fafafa;
   text-align : center;
@@ -114,15 +112,7 @@ h1{
   font-family: arial;
   font-size: 30px;
 }
-/*contact section*/
-.main {
-  height: 400px;
-  width: 100%;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-* {box-sizing:border-box}
+
 
 /* Slideshow container */
 .slideshow-container {
@@ -154,10 +144,7 @@ h1{
 }
 
 /* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
+
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
@@ -196,7 +183,48 @@ h1{
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 
+/*contact section*/
+.main {
+  height: 200px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 .message {
   padding-bottom: 100px;
+}
+.button {
+  color: #000;
+  font-family: lato;
+  font-size: 20px;
   padding-right: 180px
 }
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.left-align{
+  padding: 100px;
+  background-image: url(images/contact.jpg);
+}
+.right-align {
+  background-color: black;
+  padding: 100px;
+}
+div.content_contact  h1{
+  color: #000;
+  font-family: lato;
+}
+div.content_contact  p{
+  color: #000;
+  font-family: lato;
+  font-size: 20px; 
+}
+.first_name, .last_name, .email_add, .message {
+  color: #000;
+  font-family: lato;
+  font-size: 20px;
+  width: 420px;
+}
+/*end contact section*/
