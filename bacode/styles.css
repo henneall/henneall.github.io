@@ -1,4 +1,4 @@
-
+/*navbar,banner,services section*/
 nav {
   height : 100px;
   width : 100%;
@@ -27,14 +27,15 @@ nav {
   margin-top : 23px;
 }
 .banner {
-  width : 100%;
-  height : 378px;
-
-  background-color : black;
+  width: 100%;
+height: 904px;
+background-image : url('images/bacodeBg.png');
+background-repeat : no-repeat;
+background-size : contain;
 }
 .services-wrap {
-  background-color : #e7e7e7;
-  height : 500px;
+  height : 652px;
+  background : #fff;
 }
 div.col-sm-4 {
   float : left;
@@ -44,7 +45,38 @@ div.col-sm-4 {
   border-radius : 30px; 
   padding-right: 50px;
   padding-left: 50px; 
+  margin-top : 169px;
+  background : #fafafa;
+  text-align : center;
+  width : 17%;
+  margin-top : 51px;
 }
+div.col-sm-4 h2{
+  font-family : 'arial';
+}
+div.serviceTitle {
+  font-family : 'Lato';
+  text-align : center;
+  font-size : 20px;
+  padding-top : 58px;
+}
+.col-sm-4.first {
+  margin-left : 189px;
+}
+.col-sm-4.second {
+  margin-left : 36px;
+}
+.col-sm-4.third {
+  margin-left : 36px;
+}
+.col-sm-4.fourth {
+  margin-left : 36px;
+}
+.col-sm-4 img {
+  width : 234px;
+  margin-top: 18px;
+}
+/*About section*/
 .about{
   border :1px solid red;
   height : 500px;
@@ -78,6 +110,17 @@ h1{
   font-size : 34px;
   color : white;
   text-align : center;
+  color:white;
+  font-family: arial;
+  font-size: 30px;
+}
+/*contact section*/
+.main {
+  height: 400px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 * {box-sizing:border-box}
 
@@ -144,7 +187,6 @@ h1{
   from {opacity: .4} 
   to {opacity: 1}
 }
-
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
@@ -153,4 +195,8 @@ h1{
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+
+.message {
+  padding-bottom: 100px;
+  padding-right: 180px
 }
