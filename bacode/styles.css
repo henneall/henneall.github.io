@@ -1,4 +1,5 @@
 /*navbar,banner,services section*/
+
 nav {
   height : 100px;
   width : 100%;
@@ -7,24 +8,26 @@ nav {
 }
 .main-menu-holder {
   margin-right : 194px;
-  margin-top : -76px;
 
 }
 .main-menu li {
-  font-size : 20px;
   float : right;
+  font-size : 20px;
   list-style : none;
   padding : 20px;
+  margin-top : 18px;
 }
 .main-menu li a {
   color : white;
   text-decoration : none;
 }
 .logo img {
-  width : 50px;
-  height : 50px;
+  float : left;
+  width : 84px;
+  height : 84px;
+  margin-top : 10px;
   margin-left : 194px;
-  margin-top : 23px;
+  
 }
 .banner {
   width: 100%;
@@ -33,18 +36,13 @@ background-image : url('images/bacodeBg.png');
 background-repeat : no-repeat;
 background-size : contain;
 }
+
 .services-wrap {
   height : 652px;
   background : #fff;
 }
-div.col-sm-4 {
+div.col-sm-4{
   float : left;
-  margin-top : 250px;
-  /*padding-left : 180px;*/
-  background-color : #efefef;
-  border-radius : 30px; 
-  padding-right: 50px;
-  padding-left: 50px; 
   margin-top : 169px;
   background : #fafafa;
   text-align : center;
