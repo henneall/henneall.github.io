@@ -7,24 +7,26 @@ nav {
 }
 .main-menu-holder {
   margin-right : 194px;
-  margin-top : -76px;
 
 }
 .main-menu li {
-  font-size : 20px;
   float : right;
+  font-size : 20px;
   list-style : none;
   padding : 20px;
+  margin-top : 18px;
 }
 .main-menu li a {
   color : white;
   text-decoration : none;
 }
 .logo img {
-  width : 50px;
-  height : 50px;
+  float : left;
+  width : 84px;
+  height : 84px;
+  margin-top : 10px;
   margin-left : 194px;
-  margin-top : 23px;
+  
 }
 .banner {
   width : 100%;
@@ -32,21 +34,41 @@ nav {
 
   background-color : black;
 }
-<<<<<<< HEAD
+
 .services-wrap {
   background-color : #e7e7e7;
   height : 500px;
 }
-div.col-sm-4 {
+div.col-sm-4{
   float : left;
-  margin-top : 250px;
-  /*padding-left : 180px;*/
-  background-color : #efefef;
-  border-radius : 30px; 
-  padding-right: 50px;
-  padding-left: 50px; 
+  margin-top : 169px;
+  border-radius : 30px;
 }
-=======
+.col-sm-4.first {
+  margin-left : 191px;
+}
+.col-sm-4.second {
+  margin-left : 160px;
+}
+.col-sm-4.third {
+  margin-left : 160px;
+}
+.col-sm-4.fourth {
+  margin-left : 160px;
+}
+.col-sm-4.first img {
+  background-color : #efefef;
+
+}
+.col-sm-4.second img {
+  background-color : #efefef;
+}
+.col-sm-4.third img {
+  background-color : #efefef;
+}
+.col-sm-4.fourth img {
+  background-color : #efefef;
+}
 .about{
   border:1px solid red;
   height: 500px;
@@ -76,4 +98,3 @@ p{
   font-family: arial;
   font-size: 30px;
 }
->>>>>>> aa33caf2d1303db9476e1d77982d8f8f694ff5ab
