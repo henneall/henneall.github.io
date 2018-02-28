@@ -98,37 +98,42 @@ p{
   font-family: arial;
   font-size: 30px;
 }
-<!--contact-->
+div.content_contact  h1{
+  color: #000;
+  font-family: lato;
+}
+div.content_contact  p{
+  color: #000;
+  font-family: lato;
+  font-size: 20px; 
+}
+.first_name, .last_name, .email_add, .message {
+  color: #000;
+  font-family: lato;
+  font-size: 20px;
+  width: 420px;
+}
 .main {
-  height: 400px;
+  height: 200px;
   width: 100%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-}
-.left-align {
-  width: 80%;
-    right: 50px;
-  background-color: #808080;
-    margin-left: 150px;
-}
-.right-align {
-  background-color: #000000;
-  width: 80%;
-}
-.contactform {
-  text-align: right;
 
 }
-.content, .contact_form {
-  padding: 120px;
+.left-align{
+  padding: 100px;
+  background-image: url(images/contact.jpg);
 }
-.first_name, .last_name, .email_add {
-  padding-bottom: 20px;
-  padding-right: 180px
+.right-align {
+  background-color: black;
+  padding: 100px;
 }
 .message {
   padding-bottom: 100px;
-  padding-right: 180px
 }
-<!--end contact-->
+.button {
+  color: #000;
+  font-family: lato;
+  font-size: 20px;
+}
